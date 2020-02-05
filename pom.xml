@@ -18,49 +18,39 @@
     </properties>
 
     <dependencies>
+    
+    	<!-- Springboot web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+		<!-- Logging -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>net.logstash.logback</groupId>
-            <artifactId>logstash-logback-encoder</artifactId>
-            <version>4.11</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.skjolber.logback-logstash-syntax-highlighting-decorators</groupId>
-            <artifactId>logback-logstash-syntax-highlighting-decorators</artifactId>
-            <version>1.0.1</version>
-        </dependency>
         
+        <!-- Mongo -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
         </dependency>
         
+        <!-- Mongo in-memmory -->
         <dependency>
         	<groupId>de.flapdoodle.embed</groupId>
         	<artifactId>de.flapdoodle.embed.mongo</artifactId>
     	</dependency>
     
+    	<!-- Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
+		<!-- Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
