@@ -1,0 +1,26 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+/bin/
+/build-eclipse/
+/log/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+#### iot-api-commons #
+iot-api-commons/bin/
+iot-api-commons/build/
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+target/*
