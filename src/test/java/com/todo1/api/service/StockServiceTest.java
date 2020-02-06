@@ -179,9 +179,7 @@ public class StockServiceTest {
 		Pageable pag = PageRequest.of(0, 10);
 		when(stockRepository.findAllBy(pag)).thenThrow(new RuntimeException());
 		
-		Flux<Stock> response = productService.getAll(0, 10);
-	
-		assertNotNull(response);
+		productService.getAll(0, 10);
 	}
 	
 	@Test
